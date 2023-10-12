@@ -1,0 +1,42 @@
+group 'baotin.com.mobilestore.doorcontrol'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.0'
+        //implementation files('libs/EasyModbusJava.jar')
+        //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+}
+
+dependencies {
+    implementation files('libs/EasyModbusJava.jar')
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

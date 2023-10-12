@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/build" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/linux/flutter/ephemeral/.plugin_symlinks/device_info_plus_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/linux/flutter/ephemeral/.plugin_symlinks/device_info_plus_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/linux/flutter/ephemeral/.plugin_symlinks/device_info_plus_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/packages/doorcontrol/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/packages/doorcontrol/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/packages/doorcontrol/build" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/windows/flutter/ephemeral/.plugin_symlinks/device_info_plus_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/windows/flutter/ephemeral/.plugin_symlinks/device_info_plus_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/mobilebt/windows/flutter/ephemeral/.plugin_symlinks/device_info_plus_windows/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
